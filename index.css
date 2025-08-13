@@ -1,0 +1,38 @@
+
+#p1, #p3 {
+    color: red;
+}
+
+h1 {
+    background-color: blue;
+    color: white;
+    font-weight:bolder;
+
+}
+ 
+
+.para {
+    text-align: end;
+    font-size: small;
+    color: orange;
+    font-weight: bold;
+    font-style: oblique;
+    line-height: 50px;
+}
+
+h3 {
+    background-color: orange;
+    padding: 10px;
+    box-sizing: content-box;
+    
+}
+
+
+.ma-div {
+    border: 1px solid black;   /*  permet d'ajouter une bordure */
+    padding: 20px;                 /*  permet d'ajouter un espace entre labordure et le contenu */
+    /* margin: 50px; */
+    /* margin-top: 30px; */
+    margin-right: 30px;
+    box-sizing: content-box;
+}
