@@ -41,17 +41,7 @@ Consignes pour créer une page jolie avec header fixe, sidebar sticky, et conten
 
     Utiliser une taille de police confortable (16px+), des couleurs lisibles.
 
-5. Responsive design
 
-    En dessous d’une certaine largeur (<768px par exemple) :
-
-        Passer la sidebar sous le header en menu horizontal.
-
-        Rendre le contenu principal en pleine largeur.
-
-        Simplifier la sidebar pour ne pas surcharger l’écran (moins de liens, textes plus petits).
-
-    Utiliser des media queries pour gérer ces changements d’affichage.
 
 6. Esthétique générale
 
