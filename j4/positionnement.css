@@ -1,0 +1,56 @@
+/* body {
+    position: absolute;
+}
+.main {
+    border: 1rem solid green;
+    padding: 20px;
+}
+
+.div1 {
+    border: 2px solid red;
+    margin: 20px;
+    display: block;
+}
+
+
+.div2 {
+    border: 3px solid black;
+    display: block;
+    position: absolute;
+    top: -150px;
+    margin: 20px;
+}
+
+.div3 {
+    border: 3px solid orange;
+    margin: 20px;
+}
+
+.main1 {
+    border: 1rem solid rgb(0, 9, 128);
+    padding: 20px;
+    position: sticky;
+    top: -10px;
+
+} */
+
+.main22 {
+    display: flex;
+    /* flex-direction: row-reverse; */
+    flex-wrap: wrap;
+    /* justify-content: space-evenly; */
+    gap: 100px;
+}
+
+.div1 {
+    background-color: #0ff;
+
+}
+
+.div2 {
+    background-color: rgb(85, 0, 255);
+}
+
+.div3 {
+    background-color: rgb(204, 255, 0);
+}
