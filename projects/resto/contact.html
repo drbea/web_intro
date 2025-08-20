@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resto-Contact</title>
+    <link rel="stylesheet" href="static/index.css" />
+  </head>
+  <body>
+    <div class="container-fluid">
+      <!-- Barre de navigation -->
+      <nav class="navbar">
+        <div class="logo">Logo</div>
+        <ul class="menu">
+          <li><a href="index.html">Accueil</a></li>
+          <li><a href="menu.html">Menu</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </nav>
+      <!-- Adresse et tel du resto -->
+      <section class="adress">
+        <h2>Contactez-nous</h2>
+        <p>
+          Adresse: 123 Rue du Restaurant, Ville, Pays<br />
+          Téléphone: <a href="tel:+33 1 23 45 67 89">+33 1 23 45 67 89</a><br />
+          Email: <a href="mailto:hello@mail.gn">hello@mil.gn</a>
+      </section>
+      <!-- Horaire douverture -->
+      <section class="horraire">
+        <h2>Horaires d'ouverture</h2>
+        <ul>
+          <li>Lundi - Vendredi: 09h00 - 22h00</li>
+          <li>Samedi - Dimanche: 12h00 - Xh</li>
+        </ul>
+      </section>
+      <!-- Formulaire de contact -->
+      <fieldset class="FORMULAIRE">
+        <legend class="Contact">Contactez-nous</legend>
+        <form action="#" method="post">
+          <div>
+            <label for="name">Nom:</label>
+            <input type="text" id="name" name="name" required />
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required />
+          </div>
+            <div>
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+          <button type="submit">Envoyer</button>
+        </form>
+      </fieldset>
+
+      <footer>
+        <div class="footer-content">
+          <p>&copy; 2025 Resto. Tous droits réservés.</p>
+        </div>
+      </footer>
+    </div>
+  </body>
+</html>
